@@ -2,7 +2,8 @@
 /**
  * pr_chr - Prints character
  *
- * @list: list of arguments
+ * @list: list of args
+ * 
  * Return: Will return the amount of characters printed.
  */
 
@@ -15,7 +16,8 @@ int pr_chr(va_list list)
 /**
  * pr_str - Prints a string
  *
- * @list: list of arguments
+ * @list: list of args
+ *
  * Return: Will return the amount of characters printed.
  */
 
@@ -34,6 +36,7 @@ int pr_str(va_list list)
 
 /**
  * pr_per - Prints a percent symbol
+ *
  * @list: list of arguments
  *
  * Return: Will return the amount of characters printed.
