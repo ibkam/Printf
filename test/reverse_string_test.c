@@ -12,13 +12,13 @@ int main(void)
 	char *str;
 
 	str = "NULL";
-	a = _printf("%r\n", NULL); /*expected: notrebloh*/
-	printf("--->%d\n", a); /*expected: 10*/
+	a = _printf("%r\n", NULL); 
+	printf("--->%d\n", a);
 
-	b = _printf("%r\n", str); /*expected: loohcs*/
-	printf("%d\n", b); /*expected: 7*/
+	b = _printf("%r\n", str);
+	printf("%d\n", b);
 
-	b = _printf("%r\n", str); /*expected: loohcs*/
-	printf("%d\n", b); /*expected: 7*/
+	b = _printf("%r\n", str);
+	printf("%d\n", b);
 	return (0);
 }

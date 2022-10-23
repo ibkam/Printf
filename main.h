@@ -8,15 +8,23 @@
 
 /**
 * struct spc_obj - a struct that prints the characters in the object's funct
+<<<<<<< HEAD
 *@elem: the obj
+=======
+*
+* @elem: the obj
+*
+>>>>>>> e1accd00a57db1aac1194227644fcd48624131d4
 * @f: pointer to the functions
 */
 
 struct spc_obj
 {
 	char *elem;
+
 	int (*f)(va_list);
 };
+
 typedef struct spc_obj pr_elem;
 
 int decipher(const char *format, pr_elem f_list[], va_list arg_list);
@@ -34,6 +42,7 @@ int unsigned_integer(va_list);
 int print_number(va_list);
 int rot13(va_list);
 int print_heX(va_list list);
+
 
 unsigned int base_len(unsigned int, int);
 char *rev_string(char *);

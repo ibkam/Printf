@@ -4,8 +4,10 @@
 int hex_check(int, char);
 
 /**
- * pr_bi - Converts a number from base 10 to binary
+ * pr_bi - Converts a number from base 10 to bi
+ *
  * @list: List of arguments passed to this function
+ *
  * Return: The length of the number printed
  */
 

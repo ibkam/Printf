@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	printf(NULL); /* Should not print anything - but will get compile warning */
+	printf(NULL);
 	_printf(NULL);
 
-	printf("Test: %s\n", NULL); /* Should print: Test: (null) */
+	printf("Test: %s\n", NULL);
 	_printf("Test: %s\n", NULL);
 
-	printf("%s\n", NULL);  /* Seg fault */
+	printf("%s\n", NULL);
 	_printf("%s\n", NULL);
 	return (0);
 }

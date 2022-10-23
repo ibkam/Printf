@@ -2,9 +2,18 @@
 
 /**
  * decipher - parses the constant string in the format pointer
+ *
  * @format: A string containing all the desired characters.
+<<<<<<< HEAD
  * @f_list: A list of all the posible function
  * @arg_list: A list containing all the argumentents passed to the program.
+=======
+ *
+ * @f_list: A list of all the posible functions.
+ *
+ * @arg_list: A list containing all the args passed to the program.
+ *
+>>>>>>> e1accd00a57db1aac1194227644fcd48624131d4
  * Return: A total count of the characters printed.
  */
 
