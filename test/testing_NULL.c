@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * main - test for NULL string
- *
  * Return: Always 0
  */
 int main(void)

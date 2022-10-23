@@ -5,5 +5,6 @@ int main(void)
 {
 	char *c;
 	printf(NULL);
+
 	return (0);
 }

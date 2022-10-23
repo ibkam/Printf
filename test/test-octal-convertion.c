@@ -11,5 +11,6 @@ int main(void)
 	b = _printf("%o\n", a);
 	printf("> %i\n", b);
 	printf("%o\n", a);
+
 	return (0);
 }

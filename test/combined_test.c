@@ -3,7 +3,6 @@
 #include "main.h"
 /**
  * main - Entry point
- *
  * Return: Always 0
  */
 int main(void)
@@ -33,7 +32,8 @@ int main(void)
 	_printf("asdfasdfas\n");
 	printf("asdfasdfas\n");
 	_printf("--------------\n\n\n");
-	_printf("fasdf\n %s\n %c\n %s\n %s\n %s\n %i\n %b\n\n\n", s, c, s2, s3, s4, i, b);
+	_printf("fasdf\n %s\n %c\n %s\n %s\n %s\n %i\n %b\n\n\n",
+			s, c, s2, s3, s4, i, b);
 	printf("fasdf\n %s\n %c\n %s\n %s\n %s\n %i\n\n\n", s, c, s2, s3, s4, i);
 	_printf("--------------\n\n");
 	_printf("%b\n", 98);
