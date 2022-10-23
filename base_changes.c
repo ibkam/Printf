@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 int hex_check(int, char);
 
 /**
@@ -7,6 +8,7 @@ int hex_check(int, char);
  * @list: List of arguments passed to this function
  * Return: The length of the number printed
  */
+
 int pr_bi(va_list list)
 {
 	unsigned int num;
@@ -43,8 +45,8 @@ int pr_bi(va_list list)
 }
 
 /**
- * pr_oct - Prints the numeric representation of a number in octal base
- * @list: List of all the arguments passed to the program
+ * pr_oct - Prints the  number in octal base
+ * @list: List of all the arguments
  * Return: Number of symbols printed to stdout
  */
 int pr_oct(va_list list)

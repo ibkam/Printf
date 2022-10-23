@@ -8,8 +8,7 @@
 
 /**
 * struct spc_obj - a struct that prints the characters in the object's funct
-*
-* @elem: the obj
+*@elem: the obj
 * @f: pointer to the functions
 */
 

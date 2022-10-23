@@ -2,7 +2,7 @@
 
 /**
  * pr_rev - Calls a function to reverse and print a string
- * @arg: Argument passed to the function
+ * @arg: Argument passed
  * Return: The amount of characters printed
  */
 int pr_rev(va_list arg)

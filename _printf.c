@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * _printf - Receives the main string and returns the printed chars
- *
- * @format: A string containing all the desired characters
- *
- * Return: A total count of the characters printed
+ * _printf - takes the format string and returns the printed chars
+ *@format:A string with characters
+ *Return:total count of the printed characters
  */
 int _printf(const char *format, ...)
 {

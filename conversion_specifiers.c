@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
  * pr_chr - Prints character
- *
- * @list: list of arguments
+ *@list: list of arguments
  * Return: Will return the amount of characters printed.
  */
 
@@ -59,9 +59,7 @@ int pr_int(va_list list)
 
 /**
  * unsigned_integer - Prints Unsigned integers
- *
  * @list: List of all of the argumets
- *
  * Return: a count of the numbers
  */
 int unsigned_integer(va_list list)
